@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:id="@+id/layoutA"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <Spinner
+            android:id="@+id/currencyASpinner"
+            android:layout_width="160dip"
+            android:layout_height="50dip"
+            android:layout_weight="1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            >
+        </Spinner>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="8"
+            android:layout_weight="1"
+            android:id="@+id/currencyAEditText"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            >
+        </EditText>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutB"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+        <Spinner
+            android:id="@+id/SpinnerCurrencyB"
+            android:layout_width="160dip"
+            android:layout_height="50dip"
+            android:layout_weight="1"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            >
+        </Spinner>
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="8"
+            android:layout_weight="1"
+            android:id="@+id/currencyBEditText"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            >
+        </EditText>
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/string_latest_currency_rates"
+        android:id="@+id/labelTextView1" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/baseCurrencyLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_base_currency"
+            android:id="@+id/labelTextView2"
+            android:linksClickable="false" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/baseCurrencyTextView"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dip"
+            android:text="" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/lastUpdateLayout">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/string_last_update"
+            android:id="@+id/labelTextView3" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/lastUpdateTextView"
+            android:textStyle="bold"
+            android:layout_marginLeft="10dip"
+            android:text="" />
+    </LinearLayout>
+    <ListView
+        android:id="@+id/currentRatesListView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        >
+    </ListView>
+</LinearLayout>

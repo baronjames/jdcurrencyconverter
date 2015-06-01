@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">JD Currency Converter</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="string_latest_currency_rates">Latest Currency Rates:</string>
+    <string name="string_base_currency">Base Currency: </string>
+    <string name="string_last_update">Last Update: </string>
+
+</resources>
