@@ -5,6 +5,8 @@ import android.support.v7.app.ActionBarActivity;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.ListView;
+import android.widget.TextView;
 
 
 public class MainActivity extends ActionBarActivity
@@ -12,7 +14,16 @@ public class MainActivity extends ActionBarActivity
     //"TAG" variable used for debugging in LogCat
     private static final String TAG = "JD CC: MainActivity";
 
+    //These variables are used to avoid code duplication
+    private static final char ITEM_CURRENCYA = 0;
+    private static final char ITEM_CURRENCYB = 1;
 
+//    private Spinner[]   spinner_Currency = { null, null };
+//    private EditText[]  text_Currency = { null, null };
+    private TextView				text_BaseCurrency;
+    //private CurrencyListAdapter		adapter_currencylist;
+    private ListView				listview_rate;
+    //private CurrencyRateListAdapter	adapter_currencyratelist;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
@@ -25,6 +36,16 @@ public class MainActivity extends ActionBarActivity
         {
             setContentView(R.layout.activity_main);
 
+            //TODO: Load last used spinner selections
+
+
+            // initialize control variables
+//            spinner_Currency[ITEM_CURRENCYA] = (Spinner) findViewById(R.id.currencyASpinner);
+//            spinner_Currency[ITEM_CURRENCYB] = (Spinner) findViewById(R.id.currencyBSpinner);
+//            text_Currency[ITEM_CURRENCYA] = (EditText) findViewById(R.id.currencyAEditText);
+//            text_Currency[ITEM_CURRENCYB] = (EditText) findViewById(R.id.currencyBEditText);
+//            text_BaseCurrency = (TextView) findViewById(R.id.baseCurrencyTextView);
+//            listview_rate = (ListView) findViewById(R.id.currentRatesListView);
 
         }
         catch (Exception e)

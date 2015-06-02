@@ -42,7 +42,7 @@
         android:layout_height="wrap_content"
         >
         <Spinner
-            android:id="@+id/SpinnerCurrencyB"
+            android:id="@+id/currencyBSpinner"
             android:layout_width="160dip"
             android:layout_height="50dip"
             android:layout_weight="1"

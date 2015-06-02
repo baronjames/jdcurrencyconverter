@@ -7,4 +7,27 @@
     <string name="string_base_currency">Base Currency: </string>
     <string name="string_last_update">Last Update: </string>
 
+    <string name="string_AUD">Australian dollar</string>
+    <string name="string_USD">United States dollar</string>
+    <string name="string_CNY">Chinese renminbi</string>
+    <string name="string_JPY">Japanese yen</string>
+    <string name="string_EUR">European euro</string>
+    <string name="string_KRW">South Korean won</string>
+    <string name="string_SGD">Singapore dollar</string>
+    <string name="string_NZD">New Zealand dollar</string>
+    <string name="string_GBP">UK pound sterling</string>
+    <string name="string_MYR">Malaysian ringgit</string>
+    <string name="string_THB">Thai baht</string>
+    <string name="string_IDR">Indonesian rupiah</string>
+    <string name="string_INR">Indian rupee</string>
+    <string name="string_TWD">New Taiwan dollar</string>
+    <string name="string_VND">Vietnamese dong</string>
+    <string name="string_HKD">Hong Kong dollar</string>
+    <string name="string_PGK">Papua New Guinea kina</string>
+    <string name="string_CHF">Swiss franc</string>
+    <string name="string_AED">United Arab Emirates dirham</string>
+    <string name="string_CAD">Canadian dollar</string>
+    <string name="string_PHP">Philippines peso</string>
+
+
 </resources>
