@@ -46,7 +46,7 @@ public class MainActivity extends ActionBarActivity
 //            text_Currency[ITEM_CURRENCYB] = (EditText) findViewById(R.id.currencyBEditText);
 //            text_BaseCurrency = (TextView) findViewById(R.id.baseCurrencyTextView);
 //            listview_rate = (ListView) findViewById(R.id.currentRatesListView);
-
+//
         }
         catch (Exception e)
         {
