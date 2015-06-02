@@ -42,13 +42,13 @@ public class ConverterDB_RBA
     };
 
     public static final Integer[] currency_icon = {
-            R.drawable.AUD_flag, R.drawable.USD_flag, R.drawable.CNY_flag,
-            R.drawable.JPY_flag, R.drawable.EUR_flag, R.drawable.KRW_flag,
-            R.drawable.SGD_flag, R.drawable.NZD_flag, R.drawable.GBP_flag,
-            R.drawable.MYR_flag, R.drawable.THB_flag, R.drawable.IDR_flag,
-            R.drawable.INR_flag, R.drawable.TWD_flag, R.drawable.VND_flag,
-            R.drawable.HKD_flag, R.drawable.PGK_flag, R.drawable.CHF_flag,
-            R.drawable.AED_flag, R.drawable.CAD_flag, R.drawable.PHP_flag,
+            R.drawable.aud_flag, R.drawable.usd_flag, R.drawable.cny_flag,
+            R.drawable.jpy_flag, R.drawable.eur_flag, R.drawable.krw_flag,
+            R.drawable.sgd_flag, R.drawable.nzd_flag, R.drawable.gbp_flag,
+            R.drawable.myr_flag, R.drawable.thb_flag, R.drawable.idr_flag,
+            R.drawable.inr_flag, R.drawable.twd_flag, R.drawable.vnd_flag,
+            R.drawable.hkd_flag, R.drawable.pgk_flag, R.drawable.chf_flag,
+            R.drawable.aed_flag, R.drawable.cad_flag, R.drawable.php_flag,
     };
 
 
