@@ -5,18 +5,18 @@
 
     <ImageView
         android:id="@+id/list_icon"
-        android:layout_width="50dip"
-        android:layout_height="25dip"
+        android:layout_width="70dip"
+        android:layout_height="35dip"
         >
     </ImageView>
     <TextView
         android:id="@+id/list_text"
         android:layout_width="wrap_content"
-        android:layout_height="25dip"
+        android:layout_height="35dip"
         android:layout_marginLeft="10dip"
         android:text="TextView"
         android:textStyle="bold"
         android:gravity="center"
-        >
+        android:textSize="20dp">
     </TextView>
 </LinearLayout>

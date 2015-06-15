@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -15,12 +16,12 @@ import android.widget.TextView;
  *
  * This class populates the spinners
  */
-public class CurrencyListAdapter
+public class CurrencyListAdapter extends BaseAdapter
     {
         // This variable is used for debug log (LogCat)
         private static final String TAG = "CC:CurrencyListAdapter";
 
-        //TODO: Edit and understand this
+        //TODO: Edit and understand this later
         private LayoutInflater mInflater;
         private Bitmap[] mIcon;
         private String[] mName;
