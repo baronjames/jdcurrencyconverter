@@ -99,7 +99,8 @@ public class CurrencyRateListAdapter extends BaseAdapter
 
             holder.icon.setImageBitmap(mIcon[position]);
             holder.name.setText(mName[position]);
-            holder.rate.setText(mDisplayrate[position]);
+            holder.rate.setText((int) mRate[position]);
+//            holder.rate.setText(mDisplayrate[position]);
 
         } catch (Exception e) {
             Log.e(TAG, "getView:" + e.toString());
@@ -122,8 +123,9 @@ public class CurrencyRateListAdapter extends BaseAdapter
 
         mDisplayrate = new String[mRateData.getCount()];
 
+        //TODO: FIx this, this is where the rate is displayed
         for(int i=0; i<mRateData.getCount(); i++) {
-            mDisplayrate[i] = String.format(Locale.US, "%.3f", mRate[i] / rate_base);
+            mDisplayrate[i] = String.format(Locale.US, "%.3f", mRate[i] / rate_base );
         }
     }
 

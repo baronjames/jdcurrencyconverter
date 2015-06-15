@@ -113,7 +113,7 @@ public class MainActivity extends ActionBarActivity
             // display base currency
             //m_Base_C = mPrefs.getString(KEY_BASECURRENCY, ConverterDB_RBA.currency_name[0]);
             adapter_currencyratelist.SetBaseCurrencyIndex(DB.GetCurrencyPosition(Base_C));
-            //m_text_BaseCurrency.setText(m_Base_C);
+            text_BaseCurrency.setText(Base_C);
 
             //Selected_C[ITEM_CURRENCYA] = mPrefs.getString(KEY_SEL_CURRENCYA, CurrencyConverterDB.currency_name[0]);
             //Selected_C[ITEM_CURRENCYB] = mPrefs.getString(KEY_SEL_CURRENCYB, CurrencyConverterDB.currency_name[0]);
